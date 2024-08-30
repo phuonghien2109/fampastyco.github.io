@@ -22,7 +22,7 @@ body {
   --display-font: "Allura", Georgia, serif;
   --display-font-weight: 400;
 
-  --heading-font: "Roboto", Georgia, serif;
+  --heading-font: "Comic Sans MS", Georgia, serif;
   --heading-font-weight: 400;
   --heading-color: var(--bs-dark);
   --heading-line-height: 1.24;
@@ -38,7 +38,7 @@ body {
   --custom-easing: cubic-bezier(.17, .67, .83, .67);
 
   /* bootstrap */
-  --bs-body-font-family: Roboto, sans-serif;
+  --bs-body-font-family: Comic Sans MS, sans-serif;
   --bs-body-font-size: 1.2rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.7;
