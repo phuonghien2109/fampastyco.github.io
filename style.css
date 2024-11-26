@@ -124,12 +124,6 @@ a {
   --bs-dropdown-link-active-bg: var(--bs-secondary);
 }
 
-/* list group */
-.list-group-item {
-  --bs-list-group-item-padding-x: 0;
-  --bs-list-group-border-width: 0;
-}
-
 /* btn */
 .btn {
   --bs-btn-border-radius: 0;
@@ -275,51 +269,14 @@ a {
   letter-spacing: 0.2em;
 }
 
-/* - Search Form hover Effects
-------------------------------------------------------------- */
-
-#header .action-menu {
-  display: flex;
-  align-items: baseline;
-}
-
-.action-menu .icon {
-  font-size: 18px;
-}
-
-.navbar .search-button {
-  order: 1;
-  font-size: 13px;
-  line-height: 6;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.navbar.show .search-box {
-  max-height: 40px;
-  opacity: 1;
-}
-
-.navbar .search-box {
-  position: absolute;
-  bottom: 0;
-  right: 50px;
+/*fixed-menu*/
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
-  max-height: 0;
-  max-width: 400px;
-  min-width: 400px;
-  z-index: 999;
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  overflow: hidden;
-  opacity: 0;
-}
-
-.navbar.show .search-box .search-input {
-  opacity: 1;
+  z-index: 1000;
+  background-color: #fff;
 }
 
 
@@ -343,6 +300,9 @@ a {
   .product-thumbnail-slider.vertical {
     margin-top: 20px;
     height: auto;
+  }
+  .navbar{
+    background-color: transparent;
   }
 }
 
